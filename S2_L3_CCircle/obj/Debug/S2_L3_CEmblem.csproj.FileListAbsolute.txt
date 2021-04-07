@@ -1,0 +1,10 @@
+C:\Users\Денис\Desktop\Uni\ООП\S2_L3_CCircle\bin\Debug\S2_L3_CCircle.exe.config
+C:\Users\Денис\Desktop\Uni\ООП\S2_L3_CCircle\bin\Debug\S2_L3_CCircle.exe
+C:\Users\Денис\Desktop\Uni\ООП\S2_L3_CCircle\bin\Debug\S2_L3_CCircle.pdb
+C:\Users\Денис\Desktop\Uni\ООП\S2_L3_CCircle\obj\Debug\S2_L3_CEmblem.csprojAssemblyReference.cache
+C:\Users\Денис\Desktop\Uni\ООП\S2_L3_CCircle\obj\Debug\S2_L3_CCircle.Form1.resources
+C:\Users\Денис\Desktop\Uni\ООП\S2_L3_CCircle\obj\Debug\S2_L3_CCircle.Properties.Resources.resources
+C:\Users\Денис\Desktop\Uni\ООП\S2_L3_CCircle\obj\Debug\S2_L3_CEmblem.csproj.GenerateResource.cache
+C:\Users\Денис\Desktop\Uni\ООП\S2_L3_CCircle\obj\Debug\S2_L3_CEmblem.csproj.CoreCompileInputs.cache
+C:\Users\Денис\Desktop\Uni\ООП\S2_L3_CCircle\obj\Debug\S2_L3_CCircle.exe
+C:\Users\Денис\Desktop\Uni\ООП\S2_L3_CCircle\obj\Debug\S2_L3_CCircle.pdb

@@ -15,6 +15,8 @@ namespace S2_L3_CCircle
         CEmblem[] emblems;
         int emblemCount = 0;
         int currentEmblemIndex;
+        int lengthX = 0;
+        int lengthY = 0;
 
         private void btnCreate_Click_1(object sender, EventArgs e)
         {
@@ -55,41 +57,105 @@ namespace S2_L3_CCircle
         private void btnUp_Click(object sender, EventArgs e)
         {
             emblems[comboBox1.SelectedIndex].Move(0, -10);
+            lengthY += 1;
+            if (lengthY > 13)
+            {
+                btnUp.Enabled = false;
+                btn2Up.Enabled = false;
+            }
+            btnDown.Enabled = true;
+            btn2Down.Enabled = true;
         }
 
         private void btnDown_Click(object sender, EventArgs e)
         {
             emblems[comboBox1.SelectedIndex].Move(0, 10);
+            lengthY -= 1;
+            if (lengthY < -13)
+            {
+                btnDown.Enabled = false;
+                btn2Down.Enabled = false;
+            }
+            btnUp.Enabled = true;
+            btn2Up.Enabled = true;
         }
 
         private void btnLeft_Click(object sender, EventArgs e)
         {
             emblems[comboBox1.SelectedIndex].Move(-10, 0);
+            lengthX -= 1;
+            if (lengthX < -34)
+            {
+                btnLeft.Enabled = false;
+                btn2Left.Enabled = false;
+            }
+            btnRight.Enabled = true;
+            btn2Right.Enabled = true;
         }
 
         private void btnRight_Click(object sender, EventArgs e)
         {
             emblems[comboBox1.SelectedIndex].Move(10, 0);
+            lengthX += 1;
+            if (lengthX > 7)
+            {
+                btnRight.Enabled = false;
+                btn2Right.Enabled = false;
+            }
+            btnLeft.Enabled = true;
+            btn2Left.Enabled = true;
         }
 
         private void btn2Right_Click(object sender, EventArgs e)
         {
             emblems[comboBox1.SelectedIndex].Move(20, 0);
+            lengthX += 2;
+            if (lengthX > 7)
+            {
+                btnRight.Enabled = false;
+                btn2Right.Enabled = false;
+            }
+            btnLeft.Enabled = true;
+            btn2Left.Enabled = true;
         }
 
         private void btn2Left_Click(object sender, EventArgs e)
         {
             emblems[comboBox1.SelectedIndex].Move(-20, 0);
+            lengthX -= 2;
+            if (lengthX < -34)
+            {
+                btnLeft.Enabled = false;
+                btn2Left.Enabled = false;
+            }
+            btnRight.Enabled = true;
+            btn2Right.Enabled = true;
         }
 
         private void btn2Up_Click(object sender, EventArgs e)
         {
             emblems[comboBox1.SelectedIndex].Move(0, -20);
+            lengthY += 2;
+            if (lengthY > 13)
+            {
+                btnUp.Enabled = false;
+                btn2Up.Enabled = false;
+            }
+            btnDown.Enabled = true;
+            btn2Down.Enabled = true;
         }
 
         private void btn2Down_Click(object sender, EventArgs e)
         {
             emblems[comboBox1.SelectedIndex].Move(0, 20);
+            lengthY -= 2;
+            if (lengthY < -13)
+            {
+                btnDown.Enabled = false;
+                btn2Down.Enabled = false;
+            }
+            btnUp.Enabled = true;
+            btn2Up.Enabled = true;
         }
     }
 }
